@@ -1,0 +1,12 @@
+Linux System Health Report
+Hostname: kali
+Kernel: 6.12.13-amd64
+Disk Usage: 20% used
+Memory Usage: 742Mi / 1.9Gi
+Top Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        1170  0.8  5.8 465784 118144 tty7    Ssl+ 09:43   0:04 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+kali        1506  0.3  4.4 595936 89344 ?        Sl   09:43   0:01 xfdesktop
+kali        2997  0.1  3.0 724088 61268 ?        Sl   09:46   0:00 /usr/bin/qterminal
+kali        1535  0.3  3.0 236468 60484 ?        Sl   09:43   0:01 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/plugins/libcpugraph.so 13 16777228 cpugraph CPU Graph Graphical representation of the CPU load
+kali        1536  0.0  2.9 528336 58924 ?        Sl   09:43   0:00 /usr/bin/python3 /usr/bin/blueman-applet
